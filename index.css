@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+  /* border: 2px solid black; */
+  margin: 0 auto;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+nav {
+  padding: 5rem 5rem;
+}
+
+nav a {
+  padding: 2rem;
+  margin: 0 4rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+a:hover {
+  background: #f9e7dc;
+  color: rgb(85, 106, 197);
+  font-weight: bold;
+}
+
+.plan {
+  background: #ff764e;
+}
+
+.learn {
+  background: #5ed3eb;
+}
+
+.involved {
+  background: #ffcd69;
+}
+
+h1 {
+  font-family: "Chelsea Market", cursive;
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+}
+
+.circle {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 100px;
+}
+
+.top {
+  display: inline-block;
+  width: 70%;
+  padding-bottom: 10rem;
+}
+
+.top p {
+  font-weight: bold;
+}
+
+.p2 {
+  width: 40%;
+  line-height: 1.7rem;
+  margin-top: 3rem;
+}
+
+.info {
+  background: #ddb9a3;
+  padding: 0 1.4rem;
+  color: white;
+  width: 90%;
+  margin-bottom: 3rem;
+}
+
+.info p {
+  padding: 1.5rem 0;
+}
+
+span {
+  font-weight: bold;
+}
+
+.container {
+  font-size: 1.2rem;
+  min-width: 25%;
+  max-width: 40%;
+}
+
+.container img {
+  height: 30%;
+  width: 20%;
+  display: block;
+}
+
+.container p {
+  margin-bottom: 4rem;
+  width: 30rem;
+}
+
+footer {
+  background: #f9e7dc;
+}
+
+footer img {
+  height: 20rem;
+  width: 100%;
+}
